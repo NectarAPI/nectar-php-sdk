@@ -1,0 +1,20 @@
+{
+  "name": "nectar/nectar-php-sdk",
+  "description": "Nectar API PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+        {
+            "name": "Reagan Mbitiru",
+            "email": "reagan@nectar.software"
+        }
+   ],
+  "autoload": {
+    "psr-4": {
+      "Nectar\\Php\\Sdk\\": "src/"
+    }
+  },
+  "require": {
+  	"php": ">=7.2"
+  }
+}
